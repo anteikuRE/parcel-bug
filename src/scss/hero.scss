@@ -1,0 +1,38 @@
+@import "variables";
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin: 0 146px;
+  justify-content: space-around;
+  margin-top: 140px;
+  img {
+    box-shadow: -8px 8px 0 1px hsla(194, 57%, 95%, 1);
+    border-radius: 100%;
+  }
+  .hero__text {
+    max-width: 50%;
+    h1 {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 60px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    button {
+      cursor: pointer;
+      width: 200px;
+      height: 45px;
+      border: none;
+      background: $Primary;
+      border-radius: 2px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      color: #fff;
+    }
+  }
+}
